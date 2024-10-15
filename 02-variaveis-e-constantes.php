@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D</title>
+    <title>php simples</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <h1>Variáveis e constantes</h1>
@@ -34,7 +36,7 @@ echo "<p>" .AUTOR." trabalha na empresa" .EMPRESA. "</p>";
     ?>
 
 <h2>Saída de dados simplificada/direta</h2>
-<p>Estamos no <? =$curso?>  em <?=$ano?>    .</p>
+<span class="text-bg-danger">Estamos no <? =$curso?></span>  em<span class="text-bg-primary"> <?=$ano?> </span>
 <p><?=AUTOR?> trabalha na empresa <?=EMPRESA?></p>
 
 
