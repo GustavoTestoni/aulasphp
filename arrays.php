@@ -35,6 +35,14 @@ $filme = [
 ?>
 
 <h2>Acessando os dados do array associativo</h2>
+<p>O filme <?=$filme["titulo"]?> foi lançado em <?=$filme["lançamento"]?></p>
+<h2>Comados Úteis para análise de arrays</h2>
+
+<h3>print_r(nomeArray)</h3>
+<pre><?=print_r($bandas)?></pre>
+<h3>var_dump(nomeArray)</h3>
+<pre><?=var_dump($bandas)?></pre>
+
 </div>
 </body>
 </html>
