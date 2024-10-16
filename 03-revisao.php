@@ -23,6 +23,8 @@
 
  <p> Olá! meu nome <i class="text-danger"><?=NOME?></i> e tenho <span class="text-warning"> <?=$idade?> </span>anos.</p>
 
+ <p class="text-warning">estou bom da cabeça</p>
+
 
 </body>
 </html>
