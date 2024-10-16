@@ -20,6 +20,21 @@
  <h2>Acessando os dados do array</h2>
  <p>Psicodélico: <?=$bandas[3]?></p>
  <p>Ontem estivemos com a turma de <?=$cursos[2]?></p>
+
+ <hr>
+
+ <?php
+// Array associativo
+$filme = [
+    "titulo" => "Senhor dos Anéis",
+    "autor" => "J.R.R. Tolkien",
+    "lançamento" => "2001",
+    "genero" => "Fantasia"
+]
+
+?>
+
+<h2>Acessando os dados do array associativo</h2>
 </div>
 </body>
 </html>
