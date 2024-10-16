@@ -21,7 +21,7 @@ $area = "Back-End";
 //Estamos no Programador Web em 2024.
 echo "<p>Estamos no $curso em $ano.</p";
 
-// Com aspas simples, PHP não interpreya variável
+// Com aspas simples, PHP não interpreta variável
 echo '<p>Estamos no $curso em $ano.</p';
 
 
