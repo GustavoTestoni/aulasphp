@@ -11,7 +11,10 @@
 <body>
     <div class="container">
     <h1>Comandos condicionais no PHP</h1>
+    <p><i>(Versão refatorada)</i></p>
     <hr>
+
+
 
     <h2>Condicional simples</h2>
     <?php
@@ -32,8 +35,8 @@
 
 /* Controle de <Estoque></Estoque>*/
 
-$produto = "TV";
-$qtdEmEstoque = 0; // o que temos no momento
+$produto = "Ultrabook";
+$qtdEmEstoque = 4; // o que temos no momento
 $qtdCritica = 2; // mínimo necessário
 
 ?>
@@ -46,16 +49,18 @@ quantidade crítica, o sistema deve avisar e
 pedir pra repor.*/
 
 if($qtdEmEstoque < $qtdCritica){
-    echo "<p style='color:blue'> É necessário repor!</p>";
+    ?>
+    <p style='color:blue'> É necessário repor!</p>
+<?php
 } else {
+    ?>
 
-/* Caso contrário, simplesmente avisar que
-o estoque está normal.*/
-echo "<p style='color:brown'>Estoque normal.</p>";
+ <!-- Caso contrário, simplesmente avisar que o estoque está normal.*/ -->
+<p style='color:brown'>Estoque normal.</p>
+<?php
 }
-
-
 ?>
+
 <hr>
 
 <h2>Condicional Encadeada</h2>
