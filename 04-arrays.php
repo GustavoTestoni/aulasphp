@@ -44,5 +44,7 @@ $filme = [
 <pre><?=var_dump($bandas)?></pre>
 
 </div>
+
+<?php include "redes-sociais.html"?>
 </body>
 </html>
