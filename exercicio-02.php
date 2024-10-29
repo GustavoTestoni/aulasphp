@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Exercicio 02</title>
 </head>
 <body>
 
@@ -30,7 +30,7 @@ else { $salarioNovo = $salarioNormal * 1.05;
 
 
 <p>Salário antigo:R$
-    <?=number_format(2,',',',')?>
+    <?=number_format(2,',','.')?>
 </p>
 
 <p>Novo salário (reajustado)
