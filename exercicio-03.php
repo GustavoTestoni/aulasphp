@@ -29,7 +29,7 @@ for($i = 0; $i < count($meses); $i++){
 
     
 <?php 
-
+echo "<li>$meses[$i]</li>";
 }
 ?>
 </ol>  

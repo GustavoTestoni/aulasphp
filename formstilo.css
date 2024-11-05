@@ -1,0 +1,17 @@
+p {
+    color: darkred;
+    font-size: 42px;
+  
+    background-color: goldenrod;
+    padding: 12px;
+    text-shadow: 12px;
+    display: inline-block;
+    justify-content: center;
+}
+
+.container {
+    
+    border-color: darkblue;
+    border-width: 12px;
+    border-style: solid;
+}
